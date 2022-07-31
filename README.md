@@ -2,7 +2,17 @@
 
 This repository is for checking the rule of generating GitHub permalink.
 
-For example the permalink for `github-url-test/@foo/[bar]/a !"#$%&'()*+,-.:;<=>?@[\\]^`{|}~.txt` is `/@foo/%5Bbar%5D/a%20!%22%23$%25&'()\*+,-.:;%3C=%3E%3F@%5B%5C%5D%5E%60%7B%7C%7D~.txt`.
+For example the permalink for 
+
+```text
+github-url-test/@foo/[bar]/a !"#$%&'()*+,-.:;<=>?@[\\]^`{|}~.txt
+```
+
+is 
+
+```text
+/@foo/%5Bbar%5D/a%20!%22%23$%25&'()\*+,-.:;%3C=%3E%3F@%5B%5C%5D%5E%60%7B%7C%7D~.txt
+```
 
 ## The basic
 
