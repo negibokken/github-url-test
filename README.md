@@ -63,6 +63,8 @@ The encode rule is summarized in the below table.
 
 The result of permalink is almost same with the result of [`encodeURI`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURI) except for `#` and `?`.
 
+I think the reason why `#` and `?` are encoded is `#` and `?` have a special meaning for the URL. (i.e. `#` is for fragment, `?` is query parameter.) 
+
 ## Conclusion
 
 To generate the permalink for a file that includes symbols, follow the below steps.
