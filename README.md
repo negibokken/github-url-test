@@ -2,13 +2,13 @@
 
 This repository is for checking the rule of generating GitHub permalink.
 
-For example the permalink for 
+For example the permalink for a file like below
 
 ```text
-github-url-test/@foo/[bar]/a !"#$%&'()*+,-.:;<=>?@[\\]^`{|}~.txt
+/@foo/[bar]/a !"#$%&'()*+,-.:;<=>?@[\\]^`{|}~.txt
 ```
 
-is 
+is
 
 ```text
 /@foo/%5Bbar%5D/a%20!%22%23$%25&'()\*+,-.:;%3C=%3E%3F@%5B%5C%5D%5E%60%7B%7C%7D~.txt
